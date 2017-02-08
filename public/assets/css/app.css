@@ -1,0 +1,172 @@
+/* Write your styles */
+
+.nav-entry .col>a,.nav-entry .wallet,.tool-box,.tool-cn,.tool-ver a {
+	text-align: center
+}
+
+.app-btn-box,.app-text,.col,.nav-entry .col>a {
+	box-sizing: border-box
+}
+
+.nav-entry {
+	margin-bottom: 4px;
+	padding: 4px;
+	background: #fff;
+	font-size: 15px
+}
+
+.nav-entry .row {
+	margin-bottom: 4px;
+	height: 6em
+}
+
+.nav-entry .row:last-of-type {
+	margin-bottom: 0
+}
+
+.nav-entry .col {
+	height: 100%;
+	border-left: 1px solid #fff
+}
+
+.nav-entry .col a {
+	height: 50%
+}
+
+.nav-entry .col:nth-child(1) {
+	border-left: none
+}
+
+.nav-entry .row:nth-child(1) .col a {
+	background-color: #ff697a
+}
+
+.nav-entry .row:nth-child(2) .col a {
+	background-color: #3d98ff
+}
+
+.nav-entry .row:nth-child(3) .col a {
+	background-color: #44c522
+}
+
+.nav-entry .row:nth-child(4) .col a {
+	background-color: #fc9720
+}
+
+.nav-entry .row:nth-child(1) .col:first-of-type a,.nav-entry .row:nth-child(2) .col:first-of-type a,.nav-entry .row:nth-child(3) .col:first-of-type a,.nav-entry .row:nth-child(4) .col:first-of-type a {
+	height: 100%
+}
+
+.nav-entry .col a+a {
+	border-top: 1px solid #fff
+}
+
+.nav-entry .col:first-of-type a {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px
+}
+
+.nav-entry .col:last-of-type a:nth-child(1) {
+	border-top-right-radius: 5px
+}
+
+.nav-entry .col:last-of-type a:nth-child(2) {
+	border-bottom-right-radius: 5px
+}
+
+.nav-entry .col>a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	color: #fff;
+	text-shadow: 0 2px 1px rgba(0,0,0,.2);
+	font-size: 1em;
+	line-height: 3em
+}
+
+.nav-entry .col>a em {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	white-space: nowrap;
+	font-style: normal;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%)
+}
+
+.nav-entry .ico_shadow,.nav-entry .row:nth-child(1) .col:first-of-type a:after,.nav-entry .row:nth-child(2) .col:first-of-type a:after,.nav-entry .row:nth-child(3) .col:first-of-type a:after,.nav-entry .row:nth-child(4) .col:first-of-type a:after,.nav-entry .wallet {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	background: url(../i/un_ico_home_v66.png) no-repeat;
+	background-size: 78pt 326px;
+	content: "";
+	-webkit-background-size: 78pt 326px
+}
+
+.nav-entry li .ico_shadow {
+	bottom: -9pt;
+	left: 0;
+	width: 78pt;
+	height: 82px;
+	background-position: 0 -30px
+}
+
+.nav-entry .row:nth-child(1) .col:first-of-type a:after {
+	margin-left: -20px;
+	width: 40px;
+	height: 33px;
+	background-position: 0 -130px
+}
+
+.nav-entry .row:nth-child(2) .col:first-of-type a:after {
+	bottom: 15px;
+	margin-left: -23px;
+	width: 43px;
+	height: 28px;
+	background-position: -50px -90pt
+}
+
+.nav-entry .row:nth-child(3) .col:first-of-type a:after {
+	margin-left: -18px;
+	width: 35px;
+	height: 43px;
+	background-position: 0 -180px
+}
+
+.nav-entry .row:nth-child(4) .col:first-of-type a:after {
+	margin-left: -18px;
+	width: 35px;
+	height: 43px;
+	background-position: 0 -230px
+}
+
+.nav-entry .wallet {
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	width: 78pt;
+	height: 1pc;
+	background: url(//pic.c-ctrip.com/h5/home/tag_summer.png) no-repeat;
+	background-size: 78pt 17px;
+	color: #ff5f08;
+	font-style: normal;
+	font-size: 9px;
+	line-height: 1.2;
+	-webkit-background-size: 78pt 17px
+}
+
+.col,.row {
+	width: 100%
+}
+
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	box-sizing: border-box
+}
